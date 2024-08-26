@@ -1,0 +1,268 @@
+/*Titre et couleur*/
+h1 {
+  font-size: 4rem;
+  font-style: oblique;
+  font-weight: bold;
+  margin: auto;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 70px;
+}
+h2 {
+  font-weight: bold;
+  text-align: center;
+  font-size: 2.4rem;
+  margin: auto;
+  padding-top: 10px;
+  margin-bottom: 70px;
+}
+h3 {
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  font-size: 2rem;
+}
+
+p,
+h1 h2,
+li,
+a {
+  color: #00dbe7;
+}
+p,
+li {
+  font-size: 1rem;
+  text-align: justify;
+}
+
+body {
+  background-color: #0a111d;
+  color: #00dbe7;
+}
+header,
+footer {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: #0a111d;
+}
+
+* {
+  font-family: "Manrope", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Montserrat", sans-serif;
+}
+
+a:hover {
+  color: yellow;
+}
+a[title="link"]:hover {
+  opacity: 0.5;
+}
+
+em {
+  color: yellow;
+  font-style: normal;
+}
+/*Titre et couleur*/
+
+/*Bloc d'introduction*/
+.titreintroduction img {
+  width: 30%;
+  height: auto;
+  object-fit: cover;
+  margin: 10px 0;
+  border-radius: 10px;
+}
+.titreintroduction {
+  max-width: 1000px;
+  margin: auto;
+  padding: 15px;
+  margin-bottom: 50px;
+}
+.titreintroduction .soustitre div p {
+  font-size: 1.4rem;
+}
+.titreintroduction .soustitre div li {
+  font-size: 1.4rem;
+}
+.titreintroduction .soustitre div {
+  width: 52%;
+}
+.soustitre {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+/*Bloc d'introduction*/
+/*bouton classique*/
+.btn {
+  background: linear-gradient(#8e86b5, #acaeed);
+  color: white;
+  border-radius: 10rem;
+  box-shadow: 3px, 3px, 0px rgba(0, 0, 0, 0.2);
+  width: fit-content;
+  margin: auto;
+  padding: 20px 30px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 400ms;
+}
+.btn-contact {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  &:hover {
+    transform: scale(1.15);
+  }
+}
+.btn-portfolio {
+  margin-bottom: 10px;
+}
+.btn-aproposde {
+  margin-bottom: 40px;
+  margin-top: 10px;
+  &:hover {
+    transform: scale(1.15);
+  }
+}
+.btn-messervices {
+  margin-bottom: 10px;
+  &:hover {
+    transform: scale(1.15);
+  }
+}
+.btn-portfolio:hover {
+  color: linear-gradient(#696484, #8788ba);
+  text-decoration: none;
+}
+.btn-formulaire {
+  &:hover {
+    transform: scale(1.15);
+  }
+}
+/*bouton classique*/
+
+.a-propos-main {
+  width: 50%;
+  margin: auto;
+}
+.presentation {
+  max-width: 70%;
+  text-align: center;
+}
+.conteneurs {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 90vh;
+  margin-bottom: 100px;
+}
+.conteneur {
+  max-width: 300px;
+  padding: 10px;
+  border: 1px solid #00dbe7;
+  border-radius: 2px;
+  box-shadow: 0 0 7px #00dbe788, inset 0 0 25px #00dbe788;
+  text-align: center;
+}
+.conteneur p {
+  font-size: 1.15rem;
+}
+.conteneur img {
+  border-radius: 5px;
+  padding-bottom: 20px;
+}
+
+.service {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-size: 1.2rem;
+}
+
+nav {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+footer {
+  padding-top: 100px;
+  width: 60%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.abc h2 {
+  padding-top: 30px;
+}
+
+form {
+  max-width: 1000px;
+  padding: 0.5rem 1.5rem;
+  border: 10px;
+  border-radius: 100rem;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.label {
+  margin-bottom: 8px;
+}
+
+* {
+  margin: 0;
+}
+.section-contact h2 {
+  color: #a5b4fc;
+  text-align: center;
+  margin-bottom: 100px;
+  margin-top: 30px;
+}
+.section-contact {
+  margin-bottom: 40px;
+}
+
+.form-nom-email {
+  gap: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.form-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+input,
+textarea {
+  padding: 15px;
+}
+
+label {
+  margin-bottom: 10px;
+}
+input[type="submit"] {
+  margin-top: 30px;
+  width: 150px;
+}
+select {
+  border-radius: 6px;
+}

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Accueil-Mathieu Exposito Web developer</title>
+    <link href="style.css" rel="stylesheet" />
+    <link href="contact.css" rel="stylesheet" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <a href="Site.html" target="_blank"
+          ><img
+            src="Images/logo.png"
+            title="Accueil-Mathieu Exposito Web developer"
+            alt="Retourner à l'accueil"
+        /></a>
+        <a href="Site.html">Accueil</a>
+        <a href="a-propos.html"> A propos de</a>
+        <a href="Contact.html">Contacts</a>
+      </nav>
+    </header>
+    <main>
+      <h1>Contacts</h1>
+      <section id="contact" class="section-contact">
+        <h2>Parlons de votre projet</h2>
+        <form method="get" action="">
+          <div class="form-nom-email">
+            <div class="form-column">
+              <label for="prenom">Votre prénom</label>
+              <input type="text" name="prenom" id="prenom" required />
+            </div>
+            <div class="form-column">
+              <label for="nom"> Votre nom</label>
+              <input type="text" name="nom" id="nom" required />
+            </div>
+            <div class="form-column">
+              <label for="tel">Votre téléphone</label>
+              <input type="tel" name="tel" id="tel" required />
+            </div>
+            <div class="form-column">
+              <label for="email">Votre email</label>
+              <input type="e-mail" name="email" id="email" required />
+            </div>
+            <div class="form-column">
+              <label for="budget">Quel est votre budget ?</label><br />
+              <select name="budget" id="budget">
+                <option value="moins500">500 euros ou moins</option>
+                <option value="moins1000">Entre 500 et 1000 euros</option>
+                <option value="moins1500">Entre 1000 et 1500 euros</option>
+                <option value="moins2000">Entre 1500 et 2000 euros</option>
+                <option valuie="plus2000">2000 euros ou plus</option>
+              </select>
+            </div>
+          </div>
+          <label for="message">Racontez-moi votre projet</label>
+          <textarea name="message" id="message" rows="10"></textarea>
+          <input type="submit" value="ENVOYER" class="btn btn-formulaire" />
+        </form>
+      </section>
+
+      <section>
+        <div class="pagecontact">
+          <div class="conteneurs-contact">
+            <div class="conteneur-contact">
+              <h3>Où me retrouver ?</h3>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d92456.82685527345!2d1.3504412639871386!3d43.60079797488399!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12aebb6fec7552ff%3A0x406f69c2f411030!2sToulouse!5e0!3m2!1sfr!2sfr!4v1707814953733!5m2!1sfr!2sfr"
+                width="500"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+
+            <div class="conteneur-calendrier">
+              <div class="emailtel">
+                <h3>Mes contacts</h3>
+                <div class="email-conteneur">
+                  <i class="fa-regular fa-envelope"></i>
+
+                  <a href="mailto:mathieu.exposito@outlook.fr"
+                    >mathieu.exposito@outlook.fr</a
+                  >
+                </div>
+                <div class="telephone-container">
+                  <i class="fa-solid fa-phone"></i>
+                  <a href="tel:0628583413">0628583413</a>
+                </div>
+                <div class="localisation-conteneur">
+                  <i class="fa-solid fa-location-dot"></i>
+
+                  <a href="https://maps.app.goo.gl/dRAknNDa7giK6x1o8"
+                    >Toulouse</a
+                  >
+                </div>
+                <div class="linkedin-container">
+                  <a
+                    target="_blank"
+                    href="https://www.linkedin.com/in/mathieu-exposito-32349b2b2/"
+                    class="lien-icone"
+                    ><i class="fa-brands fa-linkedin fa-xl"></i>LinkedIn</a
+                  >
+                </div>
+                <div class="github-container">
+                  <a
+                    target="_blank"
+                    href="https://github.com/"
+                    class="lien-icone"
+                  >
+                    <i class="fa-brands fa-github fa-lg"></i>Github
+                  </a>
+                </div>
+              </div>
+              <div
+                class="calendly-inline-widget"
+                data-url="https://calendly.com/mathieu-exposito?hide_landing_page_details=1&hide_gdpr_banner=1"
+                style="min-width: 500px; height: 350px"
+              ></div>
+              <script
+                type="text/javascript"
+                src="https://assets.calendly.com/assets/external/widget.js"
+                async
+              ></script>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <a href="Site.html" target="_blank"
+        ><img
+          src="Images/logo.png"
+          title="Accueil-Mathieu Exposito Web developer"
+          alt="Retourner à l'accueil"
+      /></a>
+      <div id="main-footer" class="flex justify-around items-center">
+        <div id="left-side">
+          <div>
+            <h5>Navigation</h5>
+            <ul>
+              <li><a href="/Site.html">Accueil</a></li>
+              <li><a href="/Contact.html">Contact</a></li>
+              <li><a href="/a-propos.html">A propos de moi</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div id="right-side">
+        <div>
+          <h5>Réseaux</h5>
+          <ul>
+            <li>
+              <a target="_blank" href="https://github.com/" class="lien-icone">
+                <img
+                  src="Images/github.png"
+                  title="Github link"
+                  alt="Logo Github vers le site github.com"
+                />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/mathieu-exposito-32349b2b2/"
+                target="_blank"
+                ><img
+                  src="Images/linkedin.png"
+                  title="LinkedIn link"
+                  alt="Vous pouvez me suivre sur LinkedIn"
+              /></a>
+            </li>
+
+            <li>
+              <a target="_blank" href="https://twitter.com/">
+                <img
+                  src="images/twitter.png"
+                  title="Twitter link"
+                  alt="Logo Twitter"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="sub-footer" class="w-full h-10">
+        <p>mathieu-exposito.com</p>
+        <p>
+          <a href="/legal/cgu">CGU</a><br />
+          <a href="/legal/cgv">CGV</a>
+        </p>
+        <p>@coyiright2024</p>
+      </div>
+    </footer>
+  </body>
+</html>
